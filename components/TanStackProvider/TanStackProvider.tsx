@@ -1,9 +1,10 @@
 "use client";
-import { ReactNode, useState } from "react";
+
+import { useState } from "react";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 
 type Props = {
-  children: ReactNode;
+  children: React.ReactNode;
 };
 
 const TanStackProvider = ({ children }: Props) => {

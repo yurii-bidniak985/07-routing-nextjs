@@ -1,8 +1,27 @@
+.button-close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  padding: 4px 8px;
+  font-size: 18px;
+  background-color: #f8f9fa;
+  color: #212529;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.button-close:hover {
+  background-color: #e2e6ea;
+}
+
 .main {
   flex: 1;
 }
 
 .container {
+  position: relative;
   max-width: 800px;
   margin: 32px auto;
   padding: 24px;

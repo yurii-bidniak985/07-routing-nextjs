@@ -2,7 +2,7 @@
   flex: 1;
 }
 
-.wrapper {
+.container {
   width: 90%;
   max-width: 1280px;
   margin: 0px auto;
@@ -22,5 +22,4 @@
   color: #444444;
   line-height: 28px;
   margin-bottom: 16px;
-  text-align: center;
 }
